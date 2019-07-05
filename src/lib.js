@@ -1,5 +1,12 @@
+// @ts-check
+
 import chalk from 'chalk'
 
+/**
+ * 
+ * @param {string} content 
+ * @param {string} logLevel 
+ */
 export function prettyLog(content, logLevel) {
   const logLevels = {
     'SUCCESS': 'green',

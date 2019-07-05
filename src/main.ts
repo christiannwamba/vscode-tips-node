@@ -21,7 +21,7 @@ export class Server {
 
   private onListen = (err: any): void => {
     if (err) {
-      prettyLog(err, 'ERROR')
+      prettyLog(err, 1)
       return;
     }
 
