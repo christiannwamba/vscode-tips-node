@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "checkJs": true,
+    "allowJs": true,
     "lib": ["es5", "es2015.promise"]
   },
   "exclude": ["build"]
